@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0202a3095b7477a4091d56344f0af6b3, type: 3}
+  m_Name: DialoguesFileNameGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: DialoguesFileName
+  <Groups>k__BackingField: []
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 2c09805e-e955-4f19-b9bf-aa173edb88fe
+    <Name>k__BackingField: DialogueName
+    <Text>k__BackingField: "\u0421\u043A\u0430\u0436\u0438 \u043C\u043D\u0435?"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "\u041D\u043E\u0440\u043C\u0430\u043B\u044C\u043D\u043E"
+      <NodeID>k__BackingField: 532133c2-7f67-4edc-8219-c377acaeefed
+    - <Text>k__BackingField: "\u041F\u043E\u0439\u0434\u0435\u0442"
+      <NodeID>k__BackingField: 8543ac45-a699-4a39-8c68-7ed03868525b
+    - <Text>k__BackingField: "\u041D\u0435 \u043E\u0447\u0435\u043D\u044C"
+      <NodeID>k__BackingField: dfa95e0d-32fd-451b-8af2-148a994d2c8b
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 548.8, y: 119.2}
+  - <ID>k__BackingField: dfa95e0d-32fd-451b-8af2-148a994d2c8b
+    <Name>k__BackingField: Answer3
+    <Text>k__BackingField: "\u041D\u0435 \u0431\u0443\u0434\u0443 \u043C\u0435\u0448\u0430\u0442\u044C"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 904, y: 424.8}
+  - <ID>k__BackingField: 532133c2-7f67-4edc-8219-c377acaeefed
+    <Name>k__BackingField: Answer1
+    <Text>k__BackingField: "\u041D\u0443 \u0438 \u0445\u043E\u0440\u043E\u0448\u043E"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 903.2, y: -70.4}
+  - <ID>k__BackingField: 8543ac45-a699-4a39-8c68-7ed03868525b
+    <Name>k__BackingField: Answer2
+    <Text>k__BackingField: "\u0411\u044B\u0432\u0430\u0435\u0442"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 903.2, y: 190.40001}
+  - <ID>k__BackingField: 4b677691-bc39-4b27-9d49-557ff8b6724f
+    <Name>k__BackingField: "\u041F\u0440\u0438\u0432\u0435\u0442\u0441\u0432\u0438\u04352"
+    <Text>k__BackingField: "\u0417\u0434\u043E\u0440\u043E\u0432\u043E \u0442\u044B
+      \u044D\u0442\u043E \u0437\u0430\u043C\u0443\u0442\u0438\u043B"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 2c09805e-e955-4f19-b9bf-aa173edb88fe
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 156, y: -70.4}
+  - <ID>k__BackingField: 6c1f50ff-4999-4d0a-ba49-0d7eeb537ba9
+    <Name>k__BackingField: "\u041F\u0440\u0438\u0432\u0435\u0442\u0441\u0442\u0432\u0438\u0435"
+    <Text>k__BackingField: "\u041F\u0440\u0438\u0432\u0435\u0442, \u043A\u0430\u043A
+      \u0442\u044B \u0441\u0435\u0431\u044F \u0447\u0443\u0432\u0441\u0442\u0432\u0443\u0435\u0448\u044C?"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 2c09805e-e955-4f19-b9bf-aa173edb88fe
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 156, y: 244.00002}
+  <OldGroupNames>k__BackingField: []
+  <OldUngroupedNodeNames>k__BackingField:
+  - DialogueName
+  - Answer3
+  - Answer1
+  - Answer2
+  - "\u041F\u0440\u0438\u0432\u0435\u0442\u0441\u0432\u0438\u04352"
+  - "\u041F\u0440\u0438\u0432\u0435\u0442\u0441\u0442\u0432\u0438\u0435"
+  <OldGroupedNodeNames>k__BackingField:
+    list: []
