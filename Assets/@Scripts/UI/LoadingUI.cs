@@ -5,6 +5,7 @@ namespace ChooseReader.Logic
 {
     public class LoadingUI : MonoBehaviour
     {
+        public float CanvasFadeSpeed = 0.03f;
         public CanvasGroup CanvasGroup;
 
         private void Awake()
@@ -27,7 +28,7 @@ namespace ChooseReader.Logic
         {
             while (CanvasGroup.alpha > 0)
             {
-                CanvasGroup.alpha -= 0.03f;
+                CanvasGroup.alpha -= CanvasFadeSpeed;
                 yield return new WaitForSeconds(0.03f);
             }
 
