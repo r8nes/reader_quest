@@ -22,7 +22,7 @@ namespace ChooseReader.Structure
         public void Enter()
         {
             LoadProgressOrInitNew();
-           // _gameStateMachine.Enter<LoadLevelState>();
+            _gameStateMachine.Enter<LoadLevelState, string>(START_SCENE);
         }
 
         public void Exit()

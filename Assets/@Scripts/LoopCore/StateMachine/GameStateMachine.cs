@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using ChooseReader.Logic;
 using ChooseReader.Service;
+using ChooseReader.Service.Factory;
 using ChooseReader.Service.Progress;
 using ChooseReader.UI.Factory;
 using UnityEngine;
@@ -27,6 +28,7 @@ namespace ChooseReader.Structure
                 loadingUi,
                 services.Single<IProgressService>(),
                 services.Single<IStaticDataService>(),
+                services.Single<IGameFactory>(),
                 services.Single<IUIFactory>()),
                 [typeof(LoadProgressState)] = new LoadProgressState(
                 this,

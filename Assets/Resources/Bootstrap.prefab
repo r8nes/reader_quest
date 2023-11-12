@@ -44,4 +44,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e60cd15bca9ea5439c0374ba12eaae4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LoadingUIPref: {fileID: 0}
+  LoadingUIPref: {fileID: 839217342348115587, guid: 88f8beb0c8246164d86a1c584d5afc76, type: 3}
